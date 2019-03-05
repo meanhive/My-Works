@@ -1,0 +1,50 @@
+body{
+    margin:0;
+    padding: 0;
+    background: rgb(241, 242, 243);
+}
+.container{
+    width: 100%;
+    height: auto;
+}
+
+.card{
+    width: 60%;
+    background: #f1f1f1;
+    overflow: hidden;
+    box-shadow: 0 0 20px black;
+}
+
+.middle{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.top{
+    height: 350px;
+    background-color: rgb(112, 177, 243);
+}
+
+.content{
+    position: relative;
+    top: 38%;
+    left: 35%;
+}
+
+.content h4{
+    position: relative;
+    left: 45px;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+}
+
+.content h1{
+    font-size: 3.4em;
+    color: #fff;
+}
+
+.content h1 span{
+    color: #1c1c1c;
+}

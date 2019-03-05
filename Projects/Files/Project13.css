@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1,h2,h3,h4,h5,p,button{
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: normal;
+    color: rgb(109, 107, 107);
+}
+.main{
+    width: 900px;
+    height: auto;
+    background: rgb(238, 233, 233);
+    position: absolute;
+    top: 165%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.section{
+    width: 500px;
+    background: white;
+    position: relative;
+    left: 200px;
+}
+.one{
+    display: flex;
+    padding: 10px;
+}
+.one h1{
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+.one h4{
+    position: relative;
+    top: 10px;
+    left: 100px;
+}
+.one span:hover{
+    color: rgb(37, 116, 161);
+    cursor: pointer;
+}
+#img{
+    width: 500px;
+}
+.two h2{
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    padding: 20px;
+    text-align: center;
+}
+.two p{
+    text-align: center;
+    padding: 20px;
+    line-height: 2em;
+}
+.three{
+    display: flex;
+    padding-bottom: 20px;
+}
+.three div{
+    width: 200px;
+    padding: 10px;
+    text-align: center;
+}
+.three img{
+    width:80px;
+    height: 80px;
+}
+.three h3{
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: bolder !important;
+    padding: 5px;
+    padding-bottom: 10px;
+}
+.three p{
+    font-size: 12px;
+}
+.four{
+    display: flex;
+    text-align: center;
+    padding-bottom: 30px;
+}
+.four img{
+    width: 230px;
+    height: 150px;
+    padding: 10px;
+}
+.four h4{
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 15px;
+}
+.four p{
+    font-size: 12px;
+    padding: 10px;
+    line-height: 18px;
+}
+button{
+    background: rgb(50, 121, 202);
+    color: white;
+    text-transform: uppercase;
+    border: none;
+    width: 100px;
+    height: 35px;
+    padding: 10px;
+    font-size: 11px;
+    border-radius: 5px;
+}
+.five{
+    text-align: center;
+    padding: 10px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+hr{
+    color: rgba(238, 233, 233,.3);
+}
+.five img{
+    width: 450px;
+}
+.five h2{
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 20px;
+    padding: 10px;
+}
+.five p{
+    padding: 20px;
+}
+span{
+    color: rgb(78, 144, 219);
+}
+.six{
+    padding: 20px;
+    display: flex;
+}
+.six img{
+    width: 180px;
+    height: 200px;
+    padding-bottom: 30px;
+}
+
+.six div{
+    text-align: initial;
+    position: relative;
+    left: 20px;
+}
+.six h2{
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: bolder;
+    padding: 10px;
+}
+.six p{
+    padding: 10px;
+    font-size: 15px;
+    line-height: 20px;
+}
+.six button{
+    position: relative;
+    left: 10px; 
+}
+.seven{
+    display: flex;
+    background: rgb(50, 121, 202);
+    padding: 10px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.seven h3{
+    color: white;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 15px;
+    padding-bottom: 10px;
+}
+.seven div{
+    padding: 15px;
+}
+.seven h4{
+    font-size: 13px;
+    color: white;
+    line-height: 2em;
+}
+.last{
+    text-align: center;
+    padding: 10px;
+    font-size: 13px;
+    line-height: 2em;
+}

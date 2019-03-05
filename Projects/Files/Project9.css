@@ -1,0 +1,89 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    margin-top: 5px;
+    width: 450px;
+    height: auto;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    box-shadow: 0px 4px 8px 0px white, 0px 2px 18px 0px rgb(122, 120, 120);
+}
+
+h1,h2,h3,h4,h5,button{
+    font-family: 'Bree Serif', serif;
+    font-weight: normal;
+}
+
+.top{
+    padding: 10px;
+    height: 50px;
+    background: rgb(211, 52, 105);
+    color: white;
+}
+.top h1{
+    position: relative;
+    top:-20px;
+    left: 10px;
+    
+}
+.top h3{
+    padding: 10px;
+    position: relative;
+    top:-80px;
+    left: 350px;
+}
+.second{
+    height: 180px;
+    background-image: url(../Pics/15.jpeg);
+    background-size: 120%;
+    
+}
+.second img{
+    width: 30%;
+    position: relative;
+    top: 20px;
+    left: 160px;
+}
+.middle{
+    text-align: center;
+    color: rgb(92, 57, 43);
+}
+
+.middle button{
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    color: white;
+    background: -webkit-linear-gradient(to right, rgb(118, 162, 212), rgb(62, 56, 143)); 
+    background: -o-linear-gradient(to right, rgb(118, 162, 212), rgb(62, 56, 143)); 
+    background: -moz-linear-gradient(to right, rgb(118, 162, 212), rgb(62, 56, 143)); 
+    background: linear-gradient(to right, rgb(118, 162, 212), rgb(62, 56, 143)); 
+}
+
+.middle button:hover{
+    cursor: pointer;
+    transform: scale(.98);
+
+}
+.bottom{
+    background: rgb(184, 214, 100);
+    height: 100px;
+    border-bottom: 10px solid rgb(36, 68, 21);  
+}
+.fab{
+    position: relative;
+    top: 30px;
+    left: 125px;
+    padding: 10px;
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+}
+.fab:hover{
+    color: rgb(99, 97, 219);
+    transform: scale(.96);
+}

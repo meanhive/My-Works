@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1,h2,h3,h4,h5,p,button{
+    font-family: 'Merriweather', serif;
+    font-weight: normal;
+}
+.main{
+    height: auto;
+    width: 600px;
+    background: rgba(223, 228, 233,0.6);
+    position: absolute;
+    top: 138%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.main h4{
+    padding: 10px;
+    font-size: 10px;
+    text-decoration: underline;
+    text-align: center;
+
+}
+
+.main h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 15px;
+    padding-bottom: 10px;
+    color: rgb(83, 97, 221);
+
+}
+.fa-sketch{
+    color: rgb(83, 97, 221);
+    font-size: 15px !important;
+    padding: 0 !important;
+}
+
+.one{
+    width: 400px;
+    position: relative;
+    left: 100px;
+    box-shadow: 0px 2px 2px 0px white, 0px 2px 8px 0px rgb(141, 141, 141);
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    border-radius: 3px;
+}
+img{
+    width: 400px;
+}
+.one h2{
+    padding: 10px;
+    font-size: 18px;
+}
+
+.one p{
+    padding: 10px;
+    text-align: justify;
+    font-size: 14px;
+}
+
+.one h3{
+    padding: 10px;
+}
+
+.one button{
+    width: 100px;
+    font-size: 10px;
+    position: relative;
+    left: 10px;
+    padding: 10px;
+    text-transform: uppercase;
+    border-radius: 4px;
+    color: white;
+    border: none;
+}
+
+#btn1{
+    background: rgb(57, 61, 145);
+}
+
+#btn2{
+    background: rgb(18, 46, 70); 
+}
+#btn3{
+    background: rgb(92, 186, 230); 
+}
+#btn4{
+    background: rgb(250, 88, 39); 
+}
+#btn5{
+    background: rgb(216, 38, 142); 
+}
+.last{
+    display: flex;
+}
+
+.last div{
+    width: 190px;
+    border-radius: 4px;
+}
+
+.last div p{
+    text-align: initial;
+}
+.last img{
+    width: 190px;
+    height: 100px;
+}
+#last{
+    position: relative;
+    left: 120px;
+}
+
+.icon{
+    text-align: center;
+}
+.fab{
+    font-size: 23px;
+    padding: 10px;
+    text-decoration: none;
+    color: rgb(83, 97, 221);
+}
+.fab:hover{
+    transform: scale(.96);
+    color: rgb(196, 172, 65);
+}
+.icon h3{
+    font-size: 12px;
+    padding: 10px;
+}
+
+.icon h5{
+    font-size: 10px;
+    text-decoration: underline;
+}

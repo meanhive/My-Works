@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1,h2,h4,button,p{
+    font-family: 'Josefin Sans', sans-serif;
+}
+.main
+{
+    width: 590px;
+    height: 600px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: rgb(241, 247, 250);
+}
+.one{
+    text-align: center;
+    background: rgb(50, 194, 182);
+    color: white;
+    font-weight: bold;
+    height: 200px;
+}
+.one h2{
+    position: relative;
+    top: 60px;
+    font-size: 26px;
+}
+.two{
+    width: 450px;
+    height: 380px;
+    background: white;
+    position: absolute;
+    top: 130px;
+    left: 70px;
+}
+.two h1{
+    text-align: center;
+    padding: 30px;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+.two p{
+    text-align: justify;
+    font-size: 13px;
+    color: rgb(160, 157, 157);
+    padding: 20px;
+    line-height: 15px;
+}
+.two button{
+    background: rgb(50, 194, 182);
+    color: white;
+    border: none;
+    width: 150px;
+    height: 35px;
+    text-align: center;
+    position: relative;
+    left: 120px;
+    margin: 30px;
+}
+#pad{
+    padding-top: 0;
+    padding-bottom: 0;
+    line-height: 18px;
+}
+.last{
+    width: 450px;
+    height: 70px;
+    position: absolute;
+    top: 530px;
+    left: 70px;
+    background: rgb(250, 253, 255);
+}
+.last h4{
+    font-size: 13px;
+    font-weight: 400;
+    text-align: center;
+    position: relative;
+    top: 20px;
+    line-height: 18px;
+}
+#blink{
+    color: rgb(50, 194, 182);
+    text-decoration: underline;
+}
